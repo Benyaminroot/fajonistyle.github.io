@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fajoni Style</title>
+    <!--Si vez errores - fijate minuto 15:40-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <!-- -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!--MOBILE NAV-->
+    <input type="checkbox" id="toggle-nav">
+    <div class="mobile-nav">
+        <div class="mobile-nav-header">
+            <span>Menu</span>
+            <div class="close-btn">
+                <label for="toggle-nav">
+                    <ion-icon name="close-circle-outline"></ion-icon>
+                </label>
+            </div>
+        </div>
+
+        <div class="mobile-nav-menu">
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="about.html">Quienes somos</a>
+                </li>
+                <li>
+                    <a href="shop.html">Productos</a>
+                </li>
+                <li>
+                    <a href="#">Whatsapp</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <header>
+        <nav>
+            <!--
+            <div class="top-header">
+                <small>Season saving. New arrrivals here </small>
+                <div class="nav-icons">
+                    <ion-icon name="search-outline"></ion-icon>
+                    <ion-icon name="bag-handle-outline"></ion-icon>
+                    <ion-icon name="person-outline"></ion-icon>
+                </div>
+            </div>
+            -->
+            <div class="bottom-header">
+                <div class="brand">
+                    <img src="img/logo_principal.png" alt="" width="40px">
+                    <h5>FAJONI STYLE</h5>
+                </div>
+
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Quienes somos</a></li>
+                    <li><a href="shop.html">Productos</a></li>
+                    <li><a href="#">Whatsapp</a></li>
+                </ul>
+                <label for="toggle-nav">
+                    <ion-icon name="filter-circle-outline"></ion-icon>
+                </label>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        
+        <!--BANNER-->
+        <div class="product-header">
+            <div class="wrapper">
+                <div class="breadcrumb">
+                    <a href="index.html">Inicio</a> | <a href="shop.html">Productos</a> | <span>Basic-T-Shirt</span>
+                </div>
+                <h1>Pantalon 1</h1>
+                <!--<h3>$11.99</h3>-->
+                <div class="share-btn">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <ion-icon name="logo-pinterest"></ion-icon>
+                </div>
+            </div>
+        </div>
+        
+        <div class="product-body">
+            <div class="wrapper">
+                <div class="product-body-grid">
+                    <div class="product-photo" style="background-image: url(img/c3.jpeg);">
+
+                    </div>
+                    <div class="product-details">
+                        <div class="product-size">
+                            <small>SIZE</small>
+                            <div class="size-wrapper">
+                                <label for="">
+                                    <input type="radio" name="size">
+                                    <span>S</span>
+                                </label>
+                                <label for="">
+                                    <input type="radio" name="size">
+                                    <span>M</span>
+                                </label>
+                                <label for="">
+                                    <input type="radio" name="size">
+                                    <span>L</span>
+                                </label>
+                                <!--
+                                <label for="">
+                                    <input type="radio" name="size">
+                                    <span>XXL</span>
+                                </label>
+                                -->
+                            </div>
+                        </div>
+                        <div class="product-controls">
+                            <!--
+                            <div class="product-update-btn">
+                                <button>
+                                    <ion-icon name="remove-circle"></ion-icon>
+                                </button>
+                                <input type="number" placeholder="1" text="1"/>
+                                <button>
+                                    <ion-icon name="add-circle"></ion-icon>
+                                </button>
+                            </div>
+                        -->
+                            
+                        </div>
+
+                        <div class="product-description">
+                            <h5>Description</h5>
+                            <div class="product-full-desc">
+                                <p>Simple style will help you look your best</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, laborum totam amet dicta a praesentium autem esse iste saepe, accusamus velit! Sed magni labore qui totam quo aliquam, magnam architecto.</p>
+                                <h5>Features</h5>
+                                <ul>
+                                    <li>Smooth & Silky</li>
+                                    <li>Fade resistent</li>
+                                    <li>Smooth & Silky</li>
+                                    <li>Fade resistent</li>
+                                    <li>Smooth & Silky</li>
+                                    <li>Fade resistent</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="btn-product">
+                            <button class="btn btn-main prueba"><ion-icon name="logo-whatsapp" class="logo-product"></ion-icon> Consultar stock</button>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--BRANDS-->
+        <div class="popular-brands">
+            <div class="wrapper">
+                <div class="text-center brand-header">
+                    <h2>Marcas con las que trabajamos</h2>
+                    <p>para todos los gustos</p>
+                </div>
+                <div class="brands-grid">
+                    <img src="img/logo6.png" alt="">
+                    <img src="img/logo7.png" alt="">
+                    <img src="img/logo8.png" alt="">
+                    <img src="img/logo9.png" alt="">
+                    <img src="img/logo10.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!--FOOTER MINUTO 49-->
+        <footer>
+            <div class="wrapper">
+                <div class="footer-grid">
+                    <div class="footer-card">
+                        <h4>Contacto</h4>
+                        <span>Te brindamos nuestros datos de cotacto para que puedas comunicarte con nosotros.</span>
+
+                        <div>
+                            <ul>
+                                <li class="footer_text_contact"> <strong>Ubicación:</strong> Asoc. Los Rosales Mz "D" Lote 38</li>
+                                <li class="footer_text_contact"> <strong>Celular:</strong> +51 999-999-999</li>
+                                <li class="footer_text_contact"> <strong>Email:</strong> example@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-card">
+                        <h4>Información</h4>
+                        <span>Todo nuestro índice</span>
+
+                        <div>
+                            <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="about.html">Quienes somos</a></li>
+                                <li><a href="shop.html">Productos</a></li>
+                                <li><a href="#">Whatsapp</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-form">
+                        <h4>Boletin Informativo</h4>
+                        <span>Mantente informada de las tendencias desde tu correo</span>
+
+                        <div>
+                            <div class="sub-form">
+                                <input type="email" placeholder="example@gmail.com" class="form-control">
+                                <button class="btn btn-main">enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--MINUTO 50-->
+
+    </main>
+
+
+
+
+    <!-- IONICONS-->
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <!--Si vez errores - fijate minuto 15:40-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Esto controla los 'Content'-->
+
+</body>
+</html>
